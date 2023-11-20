@@ -7,7 +7,6 @@ class Naipe:
     def __str__(self):
         return f"{self.__nome}"
         
-        
     @property
     def id(self):
         return self.__id
@@ -16,10 +15,10 @@ class Naipe:
     def nome(self):
         return self.__nome
     
-class Cartas:
+class Carta:
     def __init__(self, id, naipe: Naipe):
         self.__id = id
-        self.__naipe = naipe
+        self.__naipe: Naipe = naipe
         
     def __str__(self):
         return f"{self.__id} | {self.__naipe}"
