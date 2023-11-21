@@ -14,9 +14,9 @@ class Baralho:
     """
     def __init__(self):
         self.__cartas: Carta = list()
-        self.inicio()
         self.__situacao = False
         self.__qntCartas = 0
+        self.inicio()
     
     @property
     def cartas(self):
