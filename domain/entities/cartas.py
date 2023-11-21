@@ -21,7 +21,7 @@ class Carta:
         self.__naipe: Naipe = naipe
         
     def __str__(self):
-        return f"{self.__id} | {self.__naipe}"
+        return f"{self.__id} - {self.__naipe}"
         
     @property
     def id(self):

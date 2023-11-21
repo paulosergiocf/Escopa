@@ -11,4 +11,6 @@ Este projeto pode levar um longo tempo, enquanto a **main** estiver vazia, acomp
 
 por enquanto a idéia é manter o esquema de arquitetura clean, para ficar mais facil ligar com as possíveis mudanças. A princípio vou focar totalmente nas regras do jogo e em como desenvolve-las.
 
+estou desenvolvendo uma interface em linha de comando para ir testando, mas assim que o back-end estiver pronto vou estudar as possivilidades para o front, como demandará mais tempo e estudos, deixei para depois.
+
 

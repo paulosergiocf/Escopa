@@ -6,6 +6,7 @@ class Jogador():
         self.__nome = nome
         self.__pontuacao = 0
         self.__monte: Carta = list()
+        self.__escopa = 0
     
     def __str__(self):
         return f"{self.__nome}"
@@ -20,4 +21,8 @@ class Jogador():
     
     @property
     def monte(self):
-        return self.__monte
+        return len(self.__monte)
+    
+    @property
+    def escopa(self) :
+        return self.__escopa
