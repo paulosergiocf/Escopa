@@ -7,6 +7,7 @@ class Jogador():
         self.__pontuacao = 0
         self.__monte: Carta = list()
         self.__escopa = 0
+        self.__mao = list()
     
     def __str__(self):
         return f"{self.__nome}"
@@ -26,3 +27,14 @@ class Jogador():
     @property
     def escopa(self) :
         return self.__escopa
+    
+    @property
+    def mao(self):
+        return self.__mao
+    
+    
+    def addEscopa(self):
+        self.__escopa += 1
+        
+    def addCartaMao(self, carta: Carta):
+        self.__mao.append(carta)

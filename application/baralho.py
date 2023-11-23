@@ -33,14 +33,14 @@ class Baralho:
             self.verificarSituacao()
             return carta
         
-        return []
+        return ValueError("Sem cartas para comprar")
     
     
     def inicio(self):
         """
         Criar bartalho com todas as cartas nescessárias
         """
-        ids = [1,2,3,4,5,6,7,"j","q","k"]
+        ids = [1,2,3,4,5,6,7,"J","Q","K"]
         
         naipes = [
             Naipe(1, "Paus"),

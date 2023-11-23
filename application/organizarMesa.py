@@ -16,6 +16,9 @@ class OrganizarMesa():
                 self.contador +=1
             elif self.contador == 3:
                 self.diagramacao[f"linha{self.linha}"].append(objeto)
+                self.contador +=1
+            elif self.contador == 4:
+                self.diagramacao[f"linha{self.linha}"].append(objeto)
                 self.linha += 1
                 self.contador = 1 
 
